@@ -1,0 +1,36 @@
+{
+  "biais_cognitifs": [
+    {
+      "nom": "Biais de confirmation",
+      "description": "Tendance à rechercher, interpréter et se souvenir des informations de manière à confirmer ses croyances préexistantes."
+    },
+    {
+      "nom": "Effet Dunning-Kruger",
+      "description": "Tendance des personnes moins compétentes à surestimer leur niveau de compétence et des personnes plus compétentes à sous-estimer leur compétence."
+    },
+    {
+      "nom": "Biais de disponibilité",
+      "description": "Tendance à évaluer la probabilité d'un événement en se basant sur la facilité avec laquelle des exemples viennent à l'esprit."
+    },
+    {
+      "nom": "Effet de halo",
+      "description": "Tendance à laisser une impression générale favorable ou défavorable influencer le jugement spécifique d'une personne."
+    },
+    {
+      "nom": "Biais d'ancrage",
+      "description": "Tendance à se fier de manière excessive à la première information rencontrée (l'ancre) lors de la prise de décision."
+    },
+    {
+      "nom": "Biais de statu quo",
+      "description": "Tendance à préférer que les choses restent telles qu'elles sont plutôt que de les changer."
+    },
+    {
+      "nom": "Biais de récence",
+      "description": "Tendance à accorder plus de poids aux informations récentes par rapport aux informations plus anciennes."
+    },
+    {
+      "nom": "Biais d'autocomplaisance",
+      "description": "Tendance à attribuer ses succès à ses propres compétences et ses échecs à des facteurs externes."
+    }
+  ]
+}

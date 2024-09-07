@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace de Patrick</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .product {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .product img {
+            max-width: 200px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .product-info {
+            flex: 1;
+            margin-left: 20px;
+        }
+        .carousel {
+            display: flex;
+            overflow-x: scroll;
+            padding: 10px;
+        }
+        .carousel img {
+            width: 150px;
+            margin-right: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenue sur la Marketplace de Patrick</h1>
+    <p>Propose des services dans les domaines de l'informatique, de la création graphique et du jardinage.</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Produits</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h2>Nos Services</h2>
+    <div class="product">
+        <img src="computer_repair.jpg" alt="Réparation ordinateur">
+        <div class="product-info">
+            <h3>Réparation d'ordinateurs</h3>
+            <p>Service complet de réparation d'ordinateurs (hardware et software).</p>
+            <p>Prix : 50€ / heure</p>
+        </div>
+    </div>
+    <div class="product">
+        <img src="phone_repair.jpg" alt="Réparation téléphone">
+        <div class="product-info">
+            <h3>Réparation de téléphones</h3>
+            <p>Réparation de téléphones, remplacement de batterie, écran, etc. (iPhone, Samsung).</p>
+            <p>Prix : 60€ / heure</p>
+        </div>
+    </div>
+    <div class="product">
+        <img src="web_design.jpg" alt="Création de site web">
+        <div class="product-info">
+            <h3>Création de sites web</h3>
+            <p>Conception et développement de sites web pour votre entreprise ou projet.</p>
+            <p>Prix : 500€ / projet</p>
+        </div>
+    </div>
+    
+    <h2>Produits additionnels</h2>
+    <div class="carousel">
+        <img src="product1.jpg" alt="Produit 1">
+        <img src="product2.jpg" alt="Produit 2">
+        <img src="product3.jpg" alt="Produit 3">
+        <img src="product4.jpg" alt="Produit 4">
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Patrick - Marketplace</p>
+</footer>
+
+</body>
+</html>
